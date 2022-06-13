@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+    list-style: none;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+header{
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #DC143C;
+    color: white;
+    
+    height: 80px;
+}
+
+.div-list{
+    text-align: center;
+}
+
+
+
+.nome-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
