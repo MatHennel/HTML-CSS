@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+div img{
+    display: block;
+    width: 100%;
+}
+
+
+
+.flex-container {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    width: 100%;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    color: white;
+    height: 100px;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+header .list-items li a {
+    color: white;
+    font-weight: 700;
+}
+
+header .list-items {
+    display: flex;
+    width: 100%;
+    max-width: 260px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu {
+    justify-content: space-between;
+}
+
+.apresentação {
+    padding: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentação .texto-apresentação {
+    min-height: 200px;
+}
+
+.texto-apresentação h1 {
+    color: black;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.apresentação .flex-container .texto-apresentação .container-saiba-mais{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    width: 70%;
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 700;
+    align-self: center;
+}
+
+#quem-somos {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#quem-somos h2 {
+    font-size: 32px;
+    color: black;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#quem-somos h2::before {
+    content: "";
+    height: 37px;
+    width: 5px;
+    margin-right: 5px;
+    background-color: black;
+    position: relative;
+}
+
+#quem-somos p{
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.serviços {
+    background-color: black;
+    color: white;
+    padding: 50px 0 ;
+}
+
+.serviços h2{
+    
+    font-size: 30px;
+    padding-bottom: 30px;
+    
+}
+
+#serviços {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+
+}
+
+
+#serviços p {
+    align-self: center;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#serviços a{
+    width: 220px;
+    background-color: white;
+    border-radius: 30px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+
+#serviços img{
+    width: 80%;
+    margin: auto;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+
+
+#planos{
+    
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+#planos .planos{
+    display: flex;
+    
+    align-items: flex-end;
+    justify-content: space-between;
+    
+}
+
+#planos .item{
+    border: 3px solid black;
+    flex: 1;
+    padding: 0 5px;
+    max-width: 240px;
+    min-height: 250px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+
+}
+
+
+#planos .item .btn{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 70%;
+    
+}
+
+#planos .item h3{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#planos .item h3::after{
+    content: "";
+    background-color: black;
+    width: 90%;
+    height: 3px;
+    margin-top: 10px;
+    align-self: center;
+}
+
+#planos .item ul{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: solid;
+   
+}
+
+#planos .item ul li{
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#planos .item ul li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+#planos h2{
+    font-size: 32px;
+    padding-top: 50px;
+}
+
+
+footer .instagram{
+    
+    height: 3px;
+    width: 3px;
+}
+
+footer .tam-img {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 120px;
+}
+
+footer .tam-img .instagram{
+    background-image: url('./images/logo.png');
+    background-size: cover;
+    margin-right: 5px;
+    height: 25px;
+    width: 25px;
+}
+
+footer .tam-img .linkedin{
+    background-image: url('./images/linkedin.png');
+    background-size: cover;
+    margin-right: 5px;
+    height: 25px;
+    width: 25px;
+}
+
+footer .tam-img .github{
+    background-image: url('./images/github.png');
+    background-size: cover;
+    margin-right: 3px;
+    height: 35px;
+    width: 35px;
+}
+
+
